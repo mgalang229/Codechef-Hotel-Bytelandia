@@ -17,7 +17,7 @@ void perform_test() {
 		cin >> vec[i].departure;
 	}
 	// brute-force approach:
-	// from each time in 0 to 1000, count the no. of guest are present
+	// from each time in 0 to 1000, count the no. of guests are present
 	int mx = 0;
 	for(int time = 0; time <= 1000; time++) {
 		int cnt = 0;
